@@ -1,0 +1,71 @@
+.Home{
+    background-image: url(http://www.thancosnatural.com/wp-content/uploads/2017/12/Banner.jpg);
+    height: 900px;
+    background-size: cover;
+}
+.Home2{ 
+    background-image: url(http://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-bg.jpg);
+    height: 700px;
+    background-size: cover;
+}
+.selectors{
+    color: white;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-evenly; 
+    align-items: center; 
+    width: 100%; 
+    font-size: large;
+    
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.282);
+}
+.op{
+    color: orange;
+}
+
+.Quality{
+    font-family: 'Satisfy', cursive;
+    color: brown;
+}
+.quality{
+    font-family: 'Satisfy', cursive;
+    color: white;
+    padding-left: 100px;
+    text-align: center;
+}    
+.Awards{
+    color: brown;
+    font-family: 'Satisfy', cursive;
+}
+.awards{
+    color: white;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+
+
+.column3 {
+    float: left;
+    width: 35%;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.column4 {
+    float: left;
+    width: 35%;
+    padding-left: 300px;
+    padding-top: 200px;
+    font-family: sans-serif;
+}
+  
+  /* Clear floats after the columns */
+.Home2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
